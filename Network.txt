@@ -1,0 +1,1327 @@
+Nmap done: 1 IP address (1 host up) scanned in 1.13 seconds
+prabhat@Prajwal-Pc:~/Documents/files/routersploit$ sudo nmap -A -sn 172.17.90.0/25
+WARNING: OS Scan is unreliable without a port scan.  You need to use a scan type along with it, such as -sS, -sT, -sF, etc instead of -sn
+QUITTING!
+prabhat@Prajwal-Pc:~/Documents/files/routersploit$ sudo nmap -sS -sn 172.17.90.0/25
+-sL and -sn (skip port scan) are not valid with any other scan types
+QUITTING!
+prabhat@Prajwal-Pc:~/Documents/files/routersploit$ sudo nmap -sS  172.17.90.0/25
+Starting Nmap 7.80 ( https://nmap.org ) at 2022-05-24 03:22 IST
+Stats: 0:05:04 elapsed; 87 hosts completed (41 up), 41 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 81.51% done; ETC: 03:29 (0:01:09 remaining)
+Stats: 0:05:04 elapsed; 87 hosts completed (41 up), 41 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 81.61% done; ETC: 03:29 (0:01:08 remaining)
+Stats: 0:05:05 elapsed; 87 hosts completed (41 up), 41 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 81.93% done; ETC: 03:29 (0:01:07 remaining)
+Warning: 172.17.90.81 giving up on port because retransmission cap hit (10).
+Stats: 0:06:37 elapsed; 87 hosts completed (41 up), 41 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 98.87% done; ETC: 03:29 (0:00:04 remaining)
+Stats: 0:06:40 elapsed; 87 hosts completed (41 up), 41 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 98.88% done; ETC: 03:29 (0:00:05 remaining)
+Stats: 0:06:41 elapsed; 87 hosts completed (41 up), 41 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 98.88% done; ETC: 03:29 (0:00:05 remaining)
+Stats: 0:06:45 elapsed; 87 hosts completed (41 up), 41 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 98.89% done; ETC: 03:29 (0:00:05 remaining)
+Stats: 0:06:57 elapsed; 87 hosts completed (41 up), 41 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 98.92% done; ETC: 03:29 (0:00:05 remaining)
+Stats: 0:09:57 elapsed; 87 hosts completed (41 up), 41 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 99.35% done; ETC: 03:32 (0:00:04 remaining)
+Stats: 0:09:58 elapsed; 87 hosts completed (41 up), 41 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 99.35% done; ETC: 03:32 (0:00:04 remaining)
+Stats: 0:09:59 elapsed; 87 hosts completed (41 up), 41 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 99.35% done; ETC: 03:32 (0:00:04 remaining)
+Stats: 0:11:56 elapsed; 87 hosts completed (41 up), 41 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 99.63% done; ETC: 03:34 (0:00:03 remaining)
+Stats: 0:11:57 elapsed; 87 hosts completed (41 up), 41 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 99.64% done; ETC: 03:34 (0:00:03 remaining)
+Stats: 0:12:18 elapsed; 87 hosts completed (41 up), 41 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 99.68% done; ETC: 03:35 (0:00:02 remaining)
+Stats: 0:12:19 elapsed; 87 hosts completed (41 up), 41 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 99.69% done; ETC: 03:35 (0:00:02 remaining)
+Stats: 0:12:21 elapsed; 87 hosts completed (41 up), 41 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 99.69% done; ETC: 03:35 (0:00:02 remaining)
+Stats: 0:12:22 elapsed; 87 hosts completed (41 up), 41 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 99.69% done; ETC: 03:35 (0:00:02 remaining)
+Stats: 0:14:23 elapsed; 87 hosts completed (41 up), 41 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 99.99% done; ETC: 03:37 (0:00:00 remaining)
+Stats: 0:14:24 elapsed; 87 hosts completed (41 up), 41 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 99.99% done; ETC: 03:37 (0:00:00 remaining)
+Nmap scan report for 172.17.90.5
+Host is up (0.015s latency).
+All 1000 scanned ports on 172.17.90.5 are filtered
+
+Nmap scan report for 172.17.90.11
+Host is up (0.090s latency).
+Not shown: 997 filtered ports
+PORT     STATE SERVICE
+23/tcp   open  telnet
+53/tcp   open  domain
+8888/tcp open  sun-answerbook
+
+Nmap scan report for 172.17.90.14
+Host is up (0.0045s latency).
+All 1000 scanned ports on 172.17.90.14 are filtered
+
+Nmap scan report for 172.17.90.15
+Host is up (0.017s latency).
+All 1000 scanned ports on 172.17.90.15 are filtered
+
+Nmap scan report for 172.17.90.22
+Host is up (0.011s latency).
+All 1000 scanned ports on 172.17.90.22 are filtered
+
+Nmap scan report for 172.17.90.30
+Host is up (0.022s latency).
+All 1000 scanned ports on 172.17.90.30 are filtered
+
+Nmap scan report for 172.17.90.32
+Host is up (0.0086s latency).
+All 1000 scanned ports on 172.17.90.32 are filtered
+
+Nmap scan report for 172.17.90.33
+Host is up (0.0087s latency).
+All 1000 scanned ports on 172.17.90.33 are filtered
+
+Nmap scan report for 172.17.90.36
+Host is up (0.0093s latency).
+All 1000 scanned ports on 172.17.90.36 are filtered
+
+Nmap scan report for 172.17.90.37
+Host is up (0.042s latency).
+All 1000 scanned ports on 172.17.90.37 are filtered
+
+Nmap scan report for 172.17.90.38
+Host is up (0.022s latency).
+All 1000 scanned ports on 172.17.90.38 are filtered
+
+Nmap scan report for 172.17.90.39
+Host is up (0.0060s latency).
+All 1000 scanned ports on 172.17.90.39 are filtered
+
+Nmap scan report for 172.17.90.40
+Host is up (0.021s latency).
+All 1000 scanned ports on 172.17.90.40 are filtered
+
+Nmap scan report for 172.17.90.42
+Host is up (0.016s latency).
+All 1000 scanned ports on 172.17.90.42 are filtered
+
+Nmap scan report for 172.17.90.50
+Host is up (0.035s latency).
+All 1000 scanned ports on 172.17.90.50 are filtered
+
+Nmap scan report for 172.17.90.52
+Host is up (0.015s latency).
+All 1000 scanned ports on 172.17.90.52 are filtered
+
+Nmap scan report for 172.17.90.54
+Host is up (0.016s latency).
+All 1000 scanned ports on 172.17.90.54 are filtered
+
+Nmap scan report for 172.17.90.56
+Host is up (0.017s latency).
+All 1000 scanned ports on 172.17.90.56 are filtered
+
+Nmap scan report for 172.17.90.57
+Host is up (0.084s latency).
+Not shown: 999 filtered ports
+PORT   STATE SERVICE
+80/tcp open  http
+
+Nmap scan report for 172.17.90.59
+Host is up (0.017s latency).
+All 1000 scanned ports on 172.17.90.59 are filtered
+
+Nmap scan report for 172.17.90.63
+Host is up (0.014s latency).
+All 1000 scanned ports on 172.17.90.63 are filtered
+
+Nmap scan report for 172.17.90.74
+Host is up (0.013s latency).
+All 1000 scanned ports on 172.17.90.74 are filtered
+
+Nmap scan report for 172.17.90.75
+Host is up (0.032s latency).
+All 1000 scanned ports on 172.17.90.75 are filtered
+
+Nmap scan report for 172.17.90.77
+Host is up (0.013s latency).
+All 1000 scanned ports on 172.17.90.77 are filtered
+
+Nmap scan report for 172.17.90.81
+Host is up (0.0055s latency).
+Not shown: 999 closed ports
+PORT     STATE    SERVICE
+1723/tcp filtered pptp
+
+Nmap scan report for 172.17.90.83
+Host is up (0.0080s latency).
+All 1000 scanned ports on 172.17.90.83 are filtered
+
+Nmap scan report for 172.17.90.86
+Host is up (0.0079s latency).
+All 1000 scanned ports on 172.17.90.86 are filtered
+
+Nmap scan report for 172.17.90.92
+Host is up (0.44s latency).
+All 1000 scanned ports on 172.17.90.92 are filtered
+
+Nmap scan report for 172.17.90.93
+Host is up (0.0079s latency).
+All 1000 scanned ports on 172.17.90.93 are filtered
+
+Nmap scan report for 172.17.90.94
+Host is up (0.0080s latency).
+All 1000 scanned ports on 172.17.90.94 are filtered
+
+Nmap scan report for 172.17.90.95
+Host is up (0.0086s latency).
+All 1000 scanned ports on 172.17.90.95 are filtered
+
+Nmap scan report for 172.17.90.99
+Host is up (0.011s latency).
+All 1000 scanned ports on 172.17.90.99 are filtered
+
+Nmap scan report for 172.17.90.100
+Host is up (0.010s latency).
+All 1000 scanned ports on 172.17.90.100 are filtered
+
+Nmap scan report for 172.17.90.102
+Host is up (0.010s latency).
+All 1000 scanned ports on 172.17.90.102 are filtered
+
+Nmap scan report for 172.17.90.104
+Host is up (0.010s latency).
+All 1000 scanned ports on 172.17.90.104 are filtered
+
+Nmap scan report for 172.17.90.106
+Host is up (0.011s latency).
+All 1000 scanned ports on 172.17.90.106 are filtered
+
+Nmap scan report for 172.17.90.114
+Host is up (0.015s latency).
+All 1000 scanned ports on 172.17.90.114 are filtered
+
+Nmap scan report for 172.17.90.117
+Host is up (0.045s latency).
+All 1000 scanned ports on 172.17.90.117 are filtered
+
+Nmap scan report for 172.17.90.120
+Host is up (0.015s latency).
+All 1000 scanned ports on 172.17.90.120 are filtered
+
+Nmap scan report for 172.17.90.122
+Host is up (0.016s latency).
+All 1000 scanned ports on 172.17.90.122 are filtered
+
+Nmap scan report for 172.17.90.123
+Host is up (0.016s latency).
+All 1000 scanned ports on 172.17.90.123 are filtered
+
+Nmap done: 128 IP addresses (41 hosts up) scanned in 891.26 seconds
+prabhat@Prajwal-Pc:~/Documents/files/routersploit$ sudo nmap -sS  172.17.90.176
+[sudo] password for prabhat: 
+Sorry, try again.
+[sudo] password for prabhat: 
+Starting Nmap 7.80 ( https://nmap.org ) at 2022-05-24 03:40 IST
+Nmap scan report for 172.17.90.176
+Host is up (0.026s latency).
+Not shown: 992 closed ports
+PORT     STATE SERVICE
+23/tcp   open  telnet
+53/tcp   open  domain
+80/tcp   open  http
+81/tcp   open  hosts2-ns
+443/tcp  open  https
+4445/tcp open  upnotifyp
+8888/tcp open  sun-answerbook
+9999/tcp open  abyss
+
+Nmap done: 1 IP address (1 host up) scanned in 1.16 seconds
+prabhat@Prajwal-Pc:~/Documents/files/routersploit$ sudo nmap -sS  172.17.90.22
+Starting Nmap 7.80 ( https://nmap.org ) at 2022-05-24 03:41 IST
+
+prabhat@Prajwal-Pc:~/Documents/files/routersploit$ sudo nmap -sS  172.17.90.81
+Starting Nmap 7.80 ( https://nmap.org ) at 2022-05-24 03:41 IST
+Nmap scan report for 172.17.90.81
+Host is up (0.039s latency).
+Not shown: 999 closed ports
+PORT     STATE    SERVICE
+1723/tcp filtered pptp
+
+Nmap done: 1 IP address (1 host up) scanned in 3.35 seconds
+prabhat@Prajwal-Pc:~/Documents/files/routersploit$ sudo nmap -A 172.17.90.57
+Starting Nmap 7.80 ( https://nmap.org ) at 2022-05-24 03:54 IST
+Nmap scan report for 172.17.90.57
+Host is up (0.0064s latency).
+Not shown: 999 filtered ports
+PORT   STATE SERVICE VERSION
+80/tcp open  http    TP-LINK TD-W8968 http admin
+|_http-title: Site doesn't have a title (text/html; charset=utf-8).
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: specialized|router|storage-misc
+Running (JUST GUESSING): Crestron 2-Series (87%), MikroTik RouterOS 3.X|5.X (86%), HP embedded (85%)
+OS CPE: cpe:/o:crestron:2_series cpe:/o:mikrotik:routeros:3.17 cpe:/o:mikrotik:routeros:5.16 cpe:/h:hp:p2000_g3
+Aggressive OS guesses: Crestron XPanel control system (87%), MikroTik RouterOS 3.17 (86%), MikroTik RouterOS 5.16 (86%), HP P2000 G3 NAS device (85%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 3 hops
+Service Info: Device: WAP; CPE: cpe:/h:tp-link:td-w8968
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT      ADDRESS
+1   14.30 ms dlinkrouter (192.168.1.1)
+2   87.70 ms 10.10.200.2
+3   14.42 ms 172.17.90.57
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 18.17 seconds
+prabhat@Prajwal-Pc:~/Documents/files/routersploit$ sudo nmap  -sn 10.10.200.0/25
+Starting Nmap 7.80 ( https://nmap.org ) at 2022-05-24 03:55 IST
+Stats: 0:00:04 elapsed; 0 hosts completed (0 up), 128 undergoing Ping Scan
+Parallel DNS resolution of 128 hosts. Timing: About 96.97% done; ETC: 03:55 (0:00:00 remaining)
+Stats: 0:00:04 elapsed; 0 hosts completed (0 up), 128 undergoing Ping Scan
+Parallel DNS resolution of 128 hosts. Timing: About 96.97% done; ETC: 03:55 (0:00:00 remaining)
+Nmap scan report for 10.10.200.1
+Host is up (0.010s latency).
+Nmap scan report for 10.10.200.2
+Host is up (0.010s latency).
+Nmap scan report for 10.10.200.5
+Host is up (0.013s latency).
+Nmap scan report for 10.10.200.6
+Host is up (0.013s latency).
+Nmap scan report for 10.10.200.7
+Host is up (0.013s latency).
+Nmap scan report for 10.10.200.8
+Host is up (0.013s latency).
+Nmap scan report for 10.10.200.9
+Host is up (0.013s latency).
+Nmap scan report for 10.10.200.10
+Host is up (0.013s latency).
+Nmap scan report for 10.10.200.12
+Host is up (0.051s latency).
+Nmap scan report for 10.10.200.13
+Host is up (0.0045s latency).
+Nmap scan report for 10.10.200.14
+Host is up (0.0048s latency).
+Nmap scan report for 10.10.200.15
+Host is up (0.0061s latency).
+Nmap scan report for 10.10.200.16
+Host is up (0.0048s latency).
+Nmap scan report for 10.10.200.17
+Host is up (0.051s latency).
+Nmap scan report for 10.10.200.18
+Host is up (0.051s latency).
+Nmap scan report for 10.10.200.19
+Host is up (0.019s latency).
+Nmap scan report for 10.10.200.20
+Host is up (0.019s latency).
+Nmap scan report for 10.10.200.21
+Host is up (0.019s latency).
+Nmap scan report for 10.10.200.22
+Host is up (0.020s latency).
+Nmap scan report for 10.10.200.23
+Host is up (0.020s latency).
+Nmap scan report for 10.10.200.24
+Host is up (0.021s latency).
+Nmap scan report for 10.10.200.26
+Host is up (0.021s latency).
+Nmap scan report for 10.10.200.27
+Host is up (0.021s latency).
+Nmap scan report for 10.10.200.28
+Host is up (0.022s latency).
+Nmap scan report for 10.10.200.29
+Host is up (0.021s latency).
+Nmap scan report for 10.10.200.30
+Host is up (0.023s latency).
+Nmap scan report for 10.10.200.31
+Host is up (0.045s latency).
+Nmap scan report for 10.10.200.32
+Host is up (0.052s latency).
+Nmap scan report for 10.10.200.33
+Host is up (0.016s latency).
+Nmap scan report for 10.10.200.34
+Host is up (0.019s latency).
+Nmap scan report for 10.10.200.35
+Host is up (0.017s latency).
+Nmap scan report for 10.10.200.36
+Host is up (0.017s latency).
+Nmap scan report for 10.10.200.37
+Host is up (0.018s latency).
+Nmap scan report for 10.10.200.38
+Host is up (0.018s latency).
+Nmap scan report for 10.10.200.39
+Host is up (0.019s latency).
+Nmap scan report for 10.10.200.40
+Host is up (0.020s latency).
+Nmap scan report for 10.10.200.41
+Host is up (0.052s latency).
+Nmap scan report for 10.10.200.42
+Host is up (0.046s latency).
+Nmap scan report for 10.10.200.43
+Host is up (0.039s latency).
+Nmap scan report for 10.10.200.44
+Host is up (0.039s latency).
+Nmap scan report for 10.10.200.45
+Host is up (0.039s latency).
+Nmap scan report for 10.10.200.46
+Host is up (0.040s latency).
+Nmap scan report for 10.10.200.47
+Host is up (0.040s latency).
+Nmap scan report for 10.10.200.48
+Host is up (0.041s latency).
+Nmap scan report for 10.10.200.49
+Host is up (0.041s latency).
+Nmap scan report for 10.10.200.50
+Host is up (0.042s latency).
+Nmap scan report for 10.10.200.51
+Host is up (0.041s latency).
+Nmap scan report for 10.10.200.52
+Host is up (0.042s latency).
+Nmap scan report for 10.10.200.64
+Host is up (0.057s latency).
+Nmap scan report for 10.10.200.65
+Host is up (0.043s latency).
+Nmap scan report for 10.10.200.67
+Host is up (0.043s latency).
+Nmap scan report for 10.10.200.68
+Host is up (0.043s latency).
+Nmap scan report for 10.10.200.69
+Host is up (0.046s latency).
+Nmap scan report for 10.10.200.70
+Host is up (0.046s latency).
+Nmap scan report for 10.10.200.71
+Host is up (0.046s latency).
+Nmap scan report for 10.10.200.72
+Host is up (0.046s latency).
+Nmap scan report for 10.10.200.73
+Host is up (0.046s latency).
+Nmap scan report for 10.10.200.74
+Host is up (0.046s latency).
+Nmap scan report for 10.10.200.75
+Host is up (0.046s latency).
+Nmap scan report for 10.10.200.76
+Host is up (0.046s latency).
+Nmap scan report for 10.10.200.77
+Host is up (0.046s latency).
+Nmap scan report for 10.10.200.78
+Host is up (0.047s latency).
+Nmap scan report for 10.10.200.79
+Host is up (0.047s latency).
+Nmap scan report for 10.10.200.80
+Host is up (0.048s latency).
+Nmap scan report for 10.10.200.81
+Host is up (0.047s latency).
+Nmap scan report for 10.10.200.82
+Host is up (0.044s latency).
+Nmap scan report for 10.10.200.83
+Host is up (0.044s latency).
+Nmap scan report for 10.10.200.84
+Host is up (0.043s latency).
+Nmap scan report for 10.10.200.86
+Host is up (0.044s latency).
+Nmap scan report for 10.10.200.87
+Host is up (0.044s latency).
+Nmap scan report for 10.10.200.88
+Host is up (0.047s latency).
+Nmap scan report for 10.10.200.89
+Host is up (0.047s latency).
+Nmap scan report for 10.10.200.90
+Host is up (0.047s latency).
+Nmap scan report for 10.10.200.91
+Host is up (0.047s latency).
+Nmap scan report for 10.10.200.92
+Host is up (0.047s latency).
+Nmap scan report for 10.10.200.93
+Host is up (0.047s latency).
+Nmap scan report for 10.10.200.94
+Host is up (0.048s latency).
+Nmap scan report for 10.10.200.95
+Host is up (0.048s latency).
+Nmap scan report for 10.10.200.96
+Host is up (0.048s latency).
+Nmap scan report for 10.10.200.97
+Host is up (0.048s latency).
+Nmap scan report for 10.10.200.99
+Host is up (0.049s latency).
+Nmap scan report for 10.10.200.100
+Host is up (0.049s latency).
+Nmap scan report for 10.10.200.101
+Host is up (0.050s latency).
+Nmap scan report for 10.10.200.102
+Host is up (0.050s latency).
+Nmap scan report for 10.10.200.103
+Host is up (0.051s latency).
+Nmap scan report for 10.10.200.104
+Host is up (0.051s latency).
+Nmap scan report for 10.10.200.105
+Host is up (0.051s latency).
+Nmap scan report for 10.10.200.107
+Host is up (0.051s latency).
+Nmap scan report for 10.10.200.109
+Host is up (0.039s latency).
+Nmap scan report for 10.10.200.111
+Host is up (0.047s latency).
+Nmap scan report for 10.10.200.112
+Host is up (0.047s latency).
+Nmap scan report for 10.10.200.113
+Host is up (0.048s latency).
+Nmap scan report for 10.10.200.114
+Host is up (0.049s latency).
+Nmap scan report for 10.10.200.115
+Host is up (0.049s latency).
+Nmap scan report for 10.10.200.116
+Host is up (0.050s latency).
+Nmap scan report for 10.10.200.117
+Host is up (0.050s latency).
+Nmap scan report for 10.10.200.118
+Host is up (0.051s latency).
+Nmap scan report for 10.10.200.119
+Host is up (0.051s latency).
+Nmap scan report for 10.10.200.127
+Host is up (0.044s latency).
+Nmap done: 128 IP addresses (99 hosts up) scanned in 7.28 seconds
+prabhat@Prajwal-Pc:~/Documents/files/routersploit$ sudo nmap  -sT 10.10.200.0/25
+Starting Nmap 7.80 ( https://nmap.org ) at 2022-05-24 03:56 IST
+Stats: 0:00:02 elapsed; 0 hosts completed (0 up), 128 undergoing Ping Scan
+Parallel DNS resolution of 128 hosts. Timing: About 84.85% done; ETC: 03:56 (0:00:00 remaining)
+Stats: 0:00:02 elapsed; 0 hosts completed (0 up), 128 undergoing Ping Scan
+Parallel DNS resolution of 128 hosts. Timing: About 84.85% done; ETC: 03:56 (0:00:00 remaining)
+Stats: 0:00:03 elapsed; 0 hosts completed (0 up), 128 undergoing Ping Scan
+Parallel DNS resolution of 128 hosts. Timing: About 84.85% done; ETC: 03:56 (0:00:00 remaining)
+Stats: 0:00:15 elapsed; 17 hosts completed (64 up), 64 undergoing Connect Scan
+Connect Scan Timing: About 5.61% done; ETC: 03:58 (0:02:15 remaining)
+Stats: 0:00:16 elapsed; 17 hosts completed (64 up), 64 undergoing Connect Scan
+Connect Scan Timing: About 6.24% done; ETC: 03:58 (0:02:15 remaining)
+Stats: 0:00:29 elapsed; 17 hosts completed (64 up), 64 undergoing Connect Scan
+Connect Scan Timing: About 22.43% done; ETC: 03:57 (0:01:16 remaining)
+Stats: 0:00:30 elapsed; 17 hosts completed (64 up), 64 undergoing Connect Scan
+Connect Scan Timing: About 22.72% done; ETC: 03:57 (0:01:18 remaining)
+Nmap scan report for 10.10.200.1
+Host is up (0.0038s latency).
+Not shown: 998 closed ports
+PORT     STATE    SERVICE
+23/tcp   filtered telnet
+1723/tcp filtered pptp
+
+Nmap scan report for 10.10.200.2
+Host is up (0.019s latency).
+Not shown: 997 closed ports
+PORT     STATE    SERVICE
+1723/tcp filtered pptp
+2000/tcp open     cisco-sccp
+9999/tcp open     abyss
+
+Nmap scan report for 10.10.200.5
+Host is up (0.023s latency).
+Not shown: 996 closed ports
+PORT     STATE    SERVICE
+53/tcp   open     domain
+1723/tcp filtered pptp
+2000/tcp open     cisco-sccp
+9999/tcp open     abyss
+
+Nmap scan report for 10.10.200.6
+Host is up (0.024s latency).
+Not shown: 997 closed ports
+PORT     STATE    SERVICE
+1723/tcp filtered pptp
+2000/tcp open     cisco-sccp
+9999/tcp open     abyss
+
+Nmap scan report for 10.10.200.7
+Host is up (0.023s latency).
+Not shown: 997 closed ports
+PORT     STATE    SERVICE
+1723/tcp filtered pptp
+2000/tcp open     cisco-sccp
+9999/tcp open     abyss
+
+Nmap scan report for 10.10.200.8
+Host is up (0.023s latency).
+Not shown: 997 closed ports
+PORT     STATE    SERVICE
+1723/tcp filtered pptp
+2000/tcp open     cisco-sccp
+9999/tcp open     abyss
+
+Nmap scan report for 10.10.200.9
+Host is up (0.027s latency).
+Not shown: 996 closed ports
+PORT     STATE    SERVICE
+53/tcp   open     domain
+1723/tcp filtered pptp
+2000/tcp open     cisco-sccp
+9999/tcp open     abyss
+
+Nmap scan report for 10.10.200.10
+Host is up (0.029s latency).
+Not shown: 997 closed ports
+PORT     STATE    SERVICE
+1723/tcp filtered pptp
+2000/tcp open     cisco-sccp
+9999/tcp open     abyss
+
+Nmap scan report for 10.10.200.12
+Host is up (0.022s latency).
+Not shown: 997 closed ports
+PORT     STATE    SERVICE
+1723/tcp filtered pptp
+2000/tcp open     cisco-sccp
+9999/tcp open     abyss
+
+Nmap scan report for 10.10.200.13
+Host is up (0.010s latency).
+Not shown: 997 closed ports
+PORT     STATE    SERVICE
+1723/tcp filtered pptp
+2000/tcp open     cisco-sccp
+9999/tcp open     abyss
+
+Nmap scan report for 10.10.200.14
+Host is up (0.023s latency).
+Not shown: 997 closed ports
+PORT     STATE    SERVICE
+1723/tcp filtered pptp
+2000/tcp open     cisco-sccp
+9999/tcp open     abyss
+
+Nmap scan report for 10.10.200.15
+Host is up (0.026s latency).
+Not shown: 996 closed ports
+PORT     STATE    SERVICE
+53/tcp   open     domain
+1723/tcp filtered pptp
+2000/tcp open     cisco-sccp
+9999/tcp open     abyss
+
+Nmap scan report for 10.10.200.16
+Host is up (0.023s latency).
+Not shown: 998 closed ports
+PORT     STATE    SERVICE
+1723/tcp filtered pptp
+9999/tcp open     abyss
+
+Nmap scan report for 10.10.200.17
+Host is up (0.011s latency).
+Not shown: 997 closed ports
+PORT     STATE    SERVICE
+1723/tcp filtered pptp
+2000/tcp open     cisco-sccp
+9999/tcp open     abyss
+
+Nmap scan report for 10.10.200.18
+Host is up (0.026s latency).
+Not shown: 996 closed ports
+PORT     STATE    SERVICE
+53/tcp   open     domain
+1723/tcp filtered pptp
+2000/tcp open     cisco-sccp
+9999/tcp open     abyss
+
+Nmap scan report for 10.10.200.19
+Host is up (0.016s latency).
+Not shown: 997 closed ports
+PORT     STATE    SERVICE
+1723/tcp filtered pptp
+2000/tcp open     cisco-sccp
+9999/tcp open     abyss
+
+Nmap scan report for 10.10.200.20
+Host is up (0.013s latency).
+Not shown: 997 closed ports
+PORT     STATE    SERVICE
+1723/tcp filtered pptp
+2000/tcp open     cisco-sccp
+9999/tcp open     abyss
+
+Nmap scan report for 10.10.200.21
+Host is up (0.019s latency).
+Not shown: 996 closed ports
+PORT     STATE    SERVICE
+23/tcp   open     telnet
+443/tcp  open     https
+1723/tcp filtered pptp
+9999/tcp open     abyss
+
+Nmap scan report for 10.10.200.22
+Host is up (0.022s latency).
+Not shown: 997 closed ports
+PORT     STATE    SERVICE
+1723/tcp filtered pptp
+2000/tcp open     cisco-sccp
+9999/tcp open     abyss
+
+Nmap scan report for 10.10.200.23
+Host is up (0.022s latency).
+Not shown: 996 closed ports
+PORT     STATE    SERVICE
+53/tcp   open     domain
+1723/tcp filtered pptp
+2000/tcp open     cisco-sccp
+9999/tcp open     abyss
+
+Nmap scan report for 10.10.200.24
+Host is up (0.019s latency).
+Not shown: 997 closed ports
+PORT     STATE    SERVICE
+1723/tcp filtered pptp
+2000/tcp open     cisco-sccp
+9999/tcp open     abyss
+
+Nmap scan report for 10.10.200.26
+Host is up (0.010s latency).
+Not shown: 997 closed ports
+PORT     STATE    SERVICE
+1723/tcp filtered pptp
+2000/tcp open     cisco-sccp
+9999/tcp open     abyss
+
+Nmap scan report for 10.10.200.27
+Host is up (0.027s latency).
+Not shown: 997 closed ports
+PORT     STATE    SERVICE
+1723/tcp filtered pptp
+2000/tcp open     cisco-sccp
+9999/tcp open     abyss
+
+Nmap scan report for 10.10.200.28
+Host is up (0.025s latency).
+Not shown: 997 closed ports
+PORT     STATE    SERVICE
+1723/tcp filtered pptp
+2000/tcp open     cisco-sccp
+9999/tcp open     abyss
+
+Nmap scan report for 10.10.200.29
+Host is up (0.028s latency).
+Not shown: 997 closed ports
+PORT     STATE    SERVICE
+1723/tcp filtered pptp
+2000/tcp open     cisco-sccp
+9999/tcp open     abyss
+
+Nmap scan report for 10.10.200.30
+Host is up (0.027s latency).
+Not shown: 998 closed ports
+PORT     STATE    SERVICE
+1723/tcp filtered pptp
+9999/tcp open     abyss
+
+Nmap scan report for 10.10.200.31
+Host is up (0.034s latency).
+Not shown: 997 closed ports
+PORT     STATE    SERVICE
+1723/tcp filtered pptp
+2000/tcp open     cisco-sccp
+9999/tcp open     abyss
+
+Nmap scan report for 10.10.200.32
+Host is up (0.028s latency).
+Not shown: 997 closed ports
+PORT     STATE    SERVICE
+1723/tcp filtered pptp
+2000/tcp open     cisco-sccp
+9999/tcp open     abyss
+
+Nmap scan report for 10.10.200.33
+Host is up (0.027s latency).
+Not shown: 998 closed ports
+PORT     STATE    SERVICE
+1723/tcp filtered pptp
+9999/tcp open     abyss
+
+Nmap scan report for 10.10.200.34
+Host is up (0.032s latency).
+Not shown: 997 closed ports
+PORT     STATE    SERVICE
+1723/tcp filtered pptp
+2000/tcp open     cisco-sccp
+9999/tcp open     abyss
+
+Nmap scan report for 10.10.200.35
+Host is up (0.016s latency).
+Not shown: 997 closed ports
+PORT     STATE    SERVICE
+1723/tcp filtered pptp
+2000/tcp open     cisco-sccp
+9999/tcp open     abyss
+
+Nmap scan report for 10.10.200.36
+Host is up (0.026s latency).
+Not shown: 997 closed ports
+PORT     STATE    SERVICE
+1723/tcp filtered pptp
+2000/tcp open     cisco-sccp
+9999/tcp open     abyss
+
+Nmap scan report for 10.10.200.37
+Host is up (0.015s latency).
+Not shown: 997 closed ports
+PORT     STATE    SERVICE
+1723/tcp filtered pptp
+2000/tcp open     cisco-sccp
+9999/tcp open     abyss
+
+Nmap scan report for 10.10.200.38
+Host is up (0.018s latency).
+Not shown: 997 closed ports
+PORT     STATE    SERVICE
+1723/tcp filtered pptp
+2000/tcp open     cisco-sccp
+9999/tcp open     abyss
+
+Nmap scan report for 10.10.200.39
+Host is up (0.027s latency).
+Not shown: 997 closed ports
+PORT     STATE    SERVICE
+1723/tcp filtered pptp
+2000/tcp open     cisco-sccp
+9999/tcp open     abyss
+
+Nmap scan report for 10.10.200.40
+Host is up (0.020s latency).
+Not shown: 997 closed ports
+PORT     STATE    SERVICE
+1723/tcp filtered pptp
+2000/tcp open     cisco-sccp
+9999/tcp open     abyss
+
+Nmap scan report for 10.10.200.41
+Host is up (0.014s latency).
+Not shown: 997 closed ports
+PORT     STATE    SERVICE
+1723/tcp filtered pptp
+2000/tcp open     cisco-sccp
+9999/tcp open     abyss
+
+Nmap scan report for 10.10.200.42
+Host is up (0.016s latency).
+Not shown: 997 closed ports
+PORT     STATE    SERVICE
+1723/tcp filtered pptp
+2000/tcp open     cisco-sccp
+9999/tcp open     abyss
+
+Nmap scan report for 10.10.200.43
+Host is up (0.029s latency).
+Not shown: 997 closed ports
+PORT     STATE    SERVICE
+1723/tcp filtered pptp
+2000/tcp open     cisco-sccp
+9999/tcp open     abyss
+
+Nmap scan report for 10.10.200.44
+Host is up (0.021s latency).
+Not shown: 997 closed ports
+PORT     STATE    SERVICE
+1723/tcp filtered pptp
+2000/tcp open     cisco-sccp
+9999/tcp open     abyss
+
+Nmap scan report for 10.10.200.45
+Host is up (0.016s latency).
+Not shown: 996 closed ports
+PORT     STATE    SERVICE
+1723/tcp filtered pptp
+2000/tcp open     cisco-sccp
+7627/tcp filtered soap-http
+9999/tcp open     abyss
+
+Nmap scan report for 10.10.200.46
+Host is up (0.021s latency).
+Not shown: 997 closed ports
+PORT     STATE    SERVICE
+1723/tcp filtered pptp
+2000/tcp open     cisco-sccp
+9999/tcp open     abyss
+
+Nmap scan report for 10.10.200.47
+Host is up (0.025s latency).
+Not shown: 997 closed ports
+PORT     STATE    SERVICE
+1723/tcp filtered pptp
+2000/tcp open     cisco-sccp
+9999/tcp open     abyss
+
+Nmap scan report for 10.10.200.48
+Host is up (0.020s latency).
+Not shown: 997 closed ports
+PORT     STATE    SERVICE
+1723/tcp filtered pptp
+2000/tcp open     cisco-sccp
+9999/tcp open     abyss
+
+Nmap scan report for 10.10.200.49
+Host is up (0.024s latency).
+Not shown: 997 closed ports
+PORT     STATE    SERVICE
+1723/tcp filtered pptp
+2000/tcp open     cisco-sccp
+9999/tcp open     abyss
+
+Nmap scan report for 10.10.200.50
+Host is up (0.025s latency).
+Not shown: 997 closed ports
+PORT     STATE    SERVICE
+1723/tcp filtered pptp
+2000/tcp open     cisco-sccp
+9999/tcp open     abyss
+
+Nmap scan report for 10.10.200.51
+Host is up (0.012s latency).
+Not shown: 997 closed ports
+PORT     STATE    SERVICE
+1723/tcp filtered pptp
+2000/tcp open     cisco-sccp
+9999/tcp open     abyss
+
+Nmap scan report for 10.10.200.52
+Host is up (0.023s latency).
+Not shown: 997 closed ports
+PORT     STATE    SERVICE
+1723/tcp filtered pptp
+2000/tcp open     cisco-sccp
+9999/tcp open     abyss
+
+Nmap scan report for 10.10.200.64
+Host is up (0.0043s latency).
+Not shown: 998 closed ports
+PORT     STATE    SERVICE
+23/tcp   filtered telnet
+1723/tcp filtered pptp
+
+Nmap scan report for 10.10.200.65
+Host is up (0.027s latency).
+Not shown: 998 closed ports
+PORT     STATE    SERVICE
+23/tcp   filtered telnet
+1723/tcp filtered pptp
+
+Nmap scan report for 10.10.200.67
+Host is up (0.029s latency).
+Not shown: 997 closed ports
+PORT     STATE    SERVICE
+1723/tcp filtered pptp
+2000/tcp open     cisco-sccp
+9999/tcp open     abyss
+
+Nmap scan report for 10.10.200.68
+Host is up (0.027s latency).
+Not shown: 997 closed ports
+PORT     STATE    SERVICE
+1723/tcp filtered pptp
+2000/tcp open     cisco-sccp
+9999/tcp open     abyss
+
+Nmap scan report for 10.10.200.69
+Host is up (0.017s latency).
+Not shown: 997 closed ports
+PORT     STATE    SERVICE
+1723/tcp filtered pptp
+2000/tcp open     cisco-sccp
+9999/tcp open     abyss
+
+Nmap scan report for 10.10.200.70
+Host is up (0.028s latency).
+Not shown: 997 closed ports
+PORT     STATE    SERVICE
+1723/tcp filtered pptp
+2000/tcp open     cisco-sccp
+9999/tcp open     abyss
+
+Nmap scan report for 10.10.200.71
+Host is up (0.026s latency).
+Not shown: 997 closed ports
+PORT     STATE    SERVICE
+1723/tcp filtered pptp
+2000/tcp open     cisco-sccp
+9999/tcp open     abyss
+
+Nmap scan report for 10.10.200.72
+Host is up (0.023s latency).
+Not shown: 997 closed ports
+PORT     STATE    SERVICE
+1723/tcp filtered pptp
+2000/tcp open     cisco-sccp
+9999/tcp open     abyss
+
+Nmap scan report for 10.10.200.73
+Host is up (0.022s latency).
+Not shown: 997 closed ports
+PORT     STATE    SERVICE
+1723/tcp filtered pptp
+2000/tcp open     cisco-sccp
+9999/tcp open     abyss
+
+Nmap scan report for 10.10.200.74
+Host is up (0.015s latency).
+Not shown: 997 closed ports
+PORT     STATE    SERVICE
+1723/tcp filtered pptp
+2000/tcp open     cisco-sccp
+9999/tcp open     abyss
+
+Nmap scan report for 10.10.200.75
+Host is up (0.0098s latency).
+Not shown: 997 closed ports
+PORT     STATE    SERVICE
+1723/tcp filtered pptp
+2000/tcp open     cisco-sccp
+9999/tcp open     abyss
+
+Nmap scan report for 10.10.200.76
+Host is up (0.027s latency).
+Not shown: 997 closed ports
+PORT     STATE    SERVICE
+1723/tcp filtered pptp
+2000/tcp open     cisco-sccp
+9999/tcp open     abyss
+
+Nmap scan report for 10.10.200.77
+Host is up (0.027s latency).
+Not shown: 997 closed ports
+PORT     STATE    SERVICE
+1723/tcp filtered pptp
+2000/tcp open     cisco-sccp
+9999/tcp open     abyss
+
+Nmap scan report for 10.10.200.78
+Host is up (0.031s latency).
+Not shown: 997 closed ports
+PORT     STATE    SERVICE
+1723/tcp filtered pptp
+2000/tcp open     cisco-sccp
+9999/tcp open     abyss
+
+Nmap scan report for 10.10.200.79
+Host is up (0.012s latency).
+Not shown: 997 closed ports
+PORT     STATE    SERVICE
+1723/tcp filtered pptp
+2000/tcp open     cisco-sccp
+9999/tcp open     abyss
+
+Nmap scan report for 10.10.200.80
+Host is up (0.027s latency).
+Not shown: 997 closed ports
+PORT     STATE    SERVICE
+1723/tcp filtered pptp
+2000/tcp open     cisco-sccp
+9999/tcp open     abyss
+
+Nmap scan report for 10.10.200.81
+Host is up (0.028s latency).
+Not shown: 997 closed ports
+PORT     STATE    SERVICE
+1723/tcp filtered pptp
+2000/tcp open     cisco-sccp
+9999/tcp open     abyss
+
+Nmap scan report for 10.10.200.82
+Host is up (0.033s latency).
+Not shown: 997 closed ports
+PORT     STATE    SERVICE
+1723/tcp filtered pptp
+2000/tcp open     cisco-sccp
+9999/tcp open     abyss
+
+Nmap scan report for 10.10.200.83
+Host is up (0.033s latency).
+Not shown: 997 closed ports
+PORT     STATE    SERVICE
+1723/tcp filtered pptp
+2000/tcp open     cisco-sccp
+9999/tcp open     abyss
+
+Nmap scan report for 10.10.200.84
+Host is up (0.020s latency).
+Not shown: 997 closed ports
+PORT     STATE    SERVICE
+1723/tcp filtered pptp
+2000/tcp open     cisco-sccp
+9999/tcp open     abyss
+
+Nmap scan report for 10.10.200.86
+Host is up (0.032s latency).
+Not shown: 996 closed ports
+PORT     STATE    SERVICE
+23/tcp   open     telnet
+1723/tcp filtered pptp
+2000/tcp open     cisco-sccp
+9999/tcp open     abyss
+
+Nmap scan report for 10.10.200.87
+Host is up (0.026s latency).
+Not shown: 997 closed ports
+PORT     STATE    SERVICE
+1723/tcp filtered pptp
+2000/tcp open     cisco-sccp
+9999/tcp open     abyss
+
+Nmap scan report for 10.10.200.88
+Host is up (0.027s latency).
+Not shown: 997 closed ports
+PORT     STATE    SERVICE
+1723/tcp filtered pptp
+2000/tcp open     cisco-sccp
+9999/tcp open     abyss
+
+Nmap scan report for 10.10.200.89
+Host is up (0.031s latency).
+Not shown: 996 closed ports
+PORT      STATE    SERVICE
+1723/tcp  filtered pptp
+2000/tcp  open     cisco-sccp
+9999/tcp  open     abyss
+16001/tcp filtered fmsascon
+
+Nmap scan report for 10.10.200.90
+Host is up (0.031s latency).
+Not shown: 997 closed ports
+PORT     STATE    SERVICE
+1723/tcp filtered pptp
+2000/tcp open     cisco-sccp
+9999/tcp open     abyss
+
+Nmap scan report for 10.10.200.91
+Host is up (0.044s latency).
+Not shown: 997 closed ports
+PORT     STATE    SERVICE
+1723/tcp filtered pptp
+2000/tcp open     cisco-sccp
+9999/tcp open     abyss
+
+Nmap scan report for 10.10.200.92
+Host is up (0.028s latency).
+Not shown: 997 closed ports
+PORT     STATE    SERVICE
+1723/tcp filtered pptp
+2000/tcp open     cisco-sccp
+9999/tcp open     abyss
+
+Nmap scan report for 10.10.200.93
+Host is up (0.033s latency).
+Not shown: 997 closed ports
+PORT     STATE    SERVICE
+1723/tcp filtered pptp
+2000/tcp open     cisco-sccp
+9999/tcp open     abyss
+
+Nmap scan report for 10.10.200.94
+Host is up (0.027s latency).
+Not shown: 997 closed ports
+PORT     STATE    SERVICE
+1723/tcp filtered pptp
+2000/tcp open     cisco-sccp
+9999/tcp open     abyss
+
+Nmap scan report for 10.10.200.95
+Host is up (0.044s latency).
+Not shown: 997 closed ports
+PORT     STATE    SERVICE
+1723/tcp filtered pptp
+2000/tcp open     cisco-sccp
+9999/tcp open     abyss
+
+Nmap scan report for 10.10.200.96
+Host is up (0.018s latency).
+Not shown: 997 closed ports
+PORT     STATE    SERVICE
+1723/tcp filtered pptp
+2000/tcp open     cisco-sccp
+9999/tcp open     abyss
+
+Nmap scan report for 10.10.200.97
+Host is up (0.0042s latency).
+Not shown: 997 closed ports
+PORT     STATE    SERVICE
+1723/tcp filtered pptp
+2000/tcp open     cisco-sccp
+9999/tcp open     abyss
+
+Nmap scan report for 10.10.200.99
+Host is up (0.021s latency).
+Not shown: 996 closed ports
+PORT      STATE    SERVICE
+1723/tcp  filtered pptp
+2000/tcp  open     cisco-sccp
+9999/tcp  open     abyss
+12265/tcp filtered unknown
+
+Nmap scan report for 10.10.200.100
+Host is up (0.043s latency).
+Not shown: 997 closed ports
+PORT     STATE    SERVICE
+1723/tcp filtered pptp
+2000/tcp open     cisco-sccp
+9999/tcp open     abyss
+
+Nmap scan report for 10.10.200.101
+Host is up (0.029s latency).
+Not shown: 997 closed ports
+PORT     STATE    SERVICE
+1723/tcp filtered pptp
+2000/tcp open     cisco-sccp
+9999/tcp open     abyss
+
+Nmap scan report for 10.10.200.102
+Host is up (0.033s latency).
+Not shown: 997 closed ports
+PORT     STATE    SERVICE
+1723/tcp filtered pptp
+2000/tcp open     cisco-sccp
+9999/tcp open     abyss
+
+Nmap scan report for 10.10.200.103
+Host is up (0.025s latency).
+Not shown: 997 closed ports
+PORT     STATE    SERVICE
+1723/tcp filtered pptp
+2000/tcp open     cisco-sccp
+9999/tcp open     abyss
+
+Nmap scan report for 10.10.200.104
+Host is up (0.026s latency).
+Not shown: 997 closed ports
+PORT     STATE    SERVICE
+1723/tcp filtered pptp
+2000/tcp open     cisco-sccp
+9999/tcp open     abyss
+
+Nmap scan report for 10.10.200.105
+Host is up (0.028s latency).
+Not shown: 996 closed ports
+PORT     STATE    SERVICE
+80/tcp   open     http
+1723/tcp filtered pptp
+2000/tcp open     cisco-sccp
+9999/tcp open     abyss
+
+Nmap scan report for 10.10.200.107
+Host is up (0.023s latency).
+Not shown: 997 closed ports
+PORT     STATE    SERVICE
+1723/tcp filtered pptp
+2000/tcp open     cisco-sccp
+9999/tcp open     abyss
+
+Nmap scan report for 10.10.200.109
+Host is up (0.020s latency).
+Not shown: 996 closed ports
+PORT     STATE    SERVICE
+80/tcp   open     http
+1723/tcp filtered pptp
+2000/tcp open     cisco-sccp
+9999/tcp open     abyss
+
+Nmap scan report for 10.10.200.111
+Host is up (0.037s latency).
+Not shown: 997 closed ports
+PORT     STATE    SERVICE
+1723/tcp filtered pptp
+2000/tcp open     cisco-sccp
+9999/tcp open     abyss
+
+Nmap scan report for 10.10.200.112
+Host is up (0.030s latency).
+Not shown: 997 closed ports
+PORT     STATE    SERVICE
+1723/tcp filtered pptp
+2000/tcp open     cisco-sccp
+9999/tcp open     abyss
+
+Nmap scan report for 10.10.200.113
+Host is up (0.022s latency).
+Not shown: 997 closed ports
+PORT     STATE    SERVICE
+1723/tcp filtered pptp
+2000/tcp open     cisco-sccp
+9999/tcp open     abyss
+
+Nmap scan report for 10.10.200.114
+Host is up (0.027s latency).
+Not shown: 997 closed ports
+PORT     STATE    SERVICE
+1723/tcp filtered pptp
+2000/tcp open     cisco-sccp
+9999/tcp open     abyss
+
+Nmap scan report for 10.10.200.115
+Host is up (0.027s latency).
+Not shown: 997 closed ports
+PORT     STATE    SERVICE
+1723/tcp filtered pptp
+2000/tcp open     cisco-sccp
+9999/tcp open     abyss
+
+Nmap scan report for 10.10.200.116
+Host is up (0.031s latency).
+Not shown: 997 closed ports
+PORT     STATE    SERVICE
+1723/tcp filtered pptp
+2000/tcp open     cisco-sccp
+9999/tcp open     abyss
+
+Nmap scan report for 10.10.200.117
+Host is up (0.029s latency).
+Not shown: 997 closed ports
+PORT     STATE    SERVICE
+1723/tcp filtered pptp
+2000/tcp open     cisco-sccp
+9999/tcp open     abyss
+
+Nmap scan report for 10.10.200.118
+Host is up (0.030s latency).
+Not shown: 997 closed ports
+PORT     STATE    SERVICE
+1723/tcp filtered pptp
+2000/tcp open     cisco-sccp
+9999/tcp open     abyss
+
+Nmap scan report for 10.10.200.119
+Host is up (0.029s latency).
+Not shown: 997 closed ports
+PORT     STATE    SERVICE
+1723/tcp filtered pptp
+2000/tcp open     cisco-sccp
+9999/tcp open     abyss
+
+Nmap scan report for 10.10.200.127
+Host is up (0.0049s latency).
+Not shown: 995 closed ports
+PORT      STATE    SERVICE
+23/tcp    filtered telnet
+1723/tcp  filtered pptp
+5080/tcp  filtered onscreen
+6123/tcp  filtered backup-express
+10617/tcp filtered unknown
+
+Nmap done: 128 IP addresses (99 hosts up) scanned in 148.09 seconds
+prabhat@Prajwal-Pc:~/Documents/files/routersploit$ telnet 10.10.200.127
+Trying 10.10.200.127...
+
+
+
+
+
+^C
+prabhat@Prajwal-Pc:~/Documents/files/routersploit$ ^C
+prabhat@Prajwal-Pc:~/Documents/files/routersploit$ ping 10.10.200.127
+PING 10.10.200.127 (10.10.200.127) 56(84) bytes of data.
+
+
+^C
+--- 10.10.200.127 ping statistics ---
+12 packets transmitted, 0 received, 100% packet loss, time 11251ms
+
+prabhat@Prajwal-Pc:~/Documents/files/routersploit$ ping 10.10.200.118
+PING 10.10.200.118 (10.10.200.118) 56(84) bytes of data.
+64 bytes from 10.10.200.118: icmp_seq=1 ttl=61 time=6.81 ms
+64 bytes from 10.10.200.118: icmp_seq=2 ttl=61 time=4.58 ms
+64 bytes from 10.10.200.118: icmp_seq=3 ttl=61 time=4.07 ms
+64 bytes from 10.10.200.118: icmp_seq=4 ttl=61 time=2.63 ms
+64 bytes from 10.10.200.118: icmp_seq=5 ttl=61 time=2.88 ms
+^C
+--- 10.10.200.118 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4008ms
+rtt min/avg/max/mdev = 2.629/4.191/6.805/1.494 ms
