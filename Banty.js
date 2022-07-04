@@ -9,6 +9,4 @@ var configgg = {
     'appId': '1:782951610606:web:3d4616f53c370e23',
     'measurementId': 'G-5YHQPCK2F2'
 };
-firebase.initializeApp(configgg);
-var database = firebase.database(),
-    firebaseOrdersCollection = database.ref('Place');
+
